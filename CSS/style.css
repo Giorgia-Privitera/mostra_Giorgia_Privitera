@@ -111,7 +111,7 @@ body {
     footer p {
     padding-left: 37px;
     color:black;
-    font-family: Inter;
+    font-family: "Inter";
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -127,7 +127,7 @@ body {
     footer a {
     text-decoration: none;
     color:black;
-    font-family: Inter;
+    font-family: "Inter";
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -263,18 +263,21 @@ body {
     margin-left: 70px;
     margin-top: 31px;
     }
-    .section4 {
+    .mappa {
     margin-left: 150px;
     }
-    .bambini{
+    .bambini h5 {
     color: #000;
     font-family: "Familjen Grotesk";
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-left: 150px;
     }
-    .testo4 {
+    
+    .bambini p {
+        margin-left: 150px;
     width: 713px;
     height: 225px;
     color: #000;
@@ -288,10 +291,7 @@ body {
     .destra h6 {
     margin-left: 150px;
     }
-    .destra img {
-    margin-left: 180px;
-    display: flex;
-    }
+    
     @media (max-width:600px) {
         header p {
             font-size: 20px;
@@ -363,6 +363,9 @@ body {
         .rettangoloartista {
             width: 300px;
         }
+        .rettangoloartista h1 {
+            font-size: 30px;
+        }
         .testoartista {
             width: 300px;
             font-size: 15px;
@@ -379,24 +382,27 @@ body {
     }
     
     .section3 {
-        width: 350px;
+        width: 300px;
         margin-top: 60px;
         margin-bottom: 60px;
     }
     .destra { 
         width: 300px;
         font-size: 15px;
+    }
+    .mappa {
+        width: 300px;
+        margin: auto;
+    }
+   .bambini h5 { 
+    margin-left: 60px;
+    width: auto;
+    font-size: 15px;
+   }
+ .bambini p {
+    margin-left: 60px;
+    width: 300px;
+    font-size: 15px;
+ }
+    }
     
-    }
-    .destra img {
-        width: 250px;
-    }
-    .bambini {
-        font-size: 15px;
-        width: 300px;
-    }
-    .testo4 {
-        width: 300px;
-        font-size: 15px;
-    }
-    }
